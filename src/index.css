@@ -1,11 +1,14 @@
+* {
+  font-family: sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 .main-1 {
   height: 100vh;
 }
-
 .headers {
   background-color: #3c37ff;
   width: 100%;
@@ -30,15 +33,12 @@ body {
   overflow: scroll;
   /* scrollbar-width: 0; */
 }
-
 .sidebar::-webkit-scrollbar {
   display: none;
 }
-
 .sidebar a {
   color: #fff;
 }
-
 .sidebar a:hover {
   text-decoration: none;
 }
@@ -80,11 +80,86 @@ body {
 .card-body {
   height: 125px;
 }
-
 .btn-warning,
 .btn-success {
   border-radius: 30px !important;
 }
 .nav-tabs:last-child {
   background-color: aqua !important;
+}
+.icon-part {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.leave-body {
+  padding: 0 50px;
+  margin-top: 30px;
+}
+.h-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background: white;
+  border-radius: 12px;
+  margin: 0 30px;
+  margin-bottom: 15px;
+}
+.dd-elements {
+  padding: 10px 15px;
+  background: white;
+  border-radius: 12px 12px 0 0;
+  margin: 0 30px;
+  margin-bottom: 10px;
+}
+.c-button {
+  height: 35px;
+  width: 140px;
+  border-radius: 2px;
+}
+.r-button {
+  height: 35px;
+  width: 140px;
+  background: #671ff1 !important;
+  border-radius: 2px;
+  border: none !important;
+}
+.toaster {
+  background: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 65%;
+}
+
+.form-select:disabled {
+  background: white !important;
+  background-image: none !important;
+  border-right-color: white;
+}
+.form-select {
+  background-image: none !important;
+  /* border-right-color: white !important; */
+  background: white !important;
+}
+.form-control:disabled {
+  background: white !important;
+  background-image: none !important;
+  border-right-color: white !important;
+  resize: none;
+}
+.form-control{
+  resize: none;
+}
+.input-group-text {
+  background: white !important;
+  border-left-color: white !important;
+}
+
+.leave-select {
+  border-right-color: white !important;
 }

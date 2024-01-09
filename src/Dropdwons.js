@@ -15,7 +15,7 @@ const DropdownArrayExample = () => {
   return (
     <div className="leave-body">
       <div className="icon-part">
-        <Link to={"/"} style={{ color: "black" }}>
+        <Link to={"/home"} style={{ color: "black" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -133,7 +133,7 @@ const DropdownArrayExample = () => {
           </div>
         </div>
         <div className="d-flex align-items-center justify-content-center gap-3 pt-2 ">
-          <Link to={"/"}>
+          <Link to={"/home"}>
             <Button className="c-button btn-secondary p-0">Cancel</Button>
           </Link>
           <Link to={"/submitLeave"}>

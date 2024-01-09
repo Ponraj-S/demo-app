@@ -17,6 +17,7 @@ import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
+  
   return (
     <div className="main-1" style={{ backgroundColor: "#D4D9E5" }}>
       <div className="main">
@@ -29,7 +30,7 @@ const Sidebar = () => {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link  className="mb-4">
-              <Link to={'/'}> <FaHome size={30} /></Link>
+              <Link to={'/home'}> <FaHome size={30} /></Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

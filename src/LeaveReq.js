@@ -30,7 +30,7 @@ function LeaveReq() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link className="mb-4">
-                <Link to={"/"}>
+                <Link to={"/home"}>
                   <FaHome size={30} />
                 </Link>
               </Nav.Link>

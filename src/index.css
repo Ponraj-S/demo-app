@@ -133,7 +133,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 65%;
+  margin-left: 68%;
 }
 
 .form-select:disabled {
@@ -152,7 +152,7 @@ body {
   border-right-color: white !important;
   resize: none;
 }
-.form-control{
+.form-control {
   resize: none;
 }
 .input-group-text {
